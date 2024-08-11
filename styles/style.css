@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-color: #E5E5E5;
+    --second-color: #020346;
+    --third-color: #ffffff;
+    --fourth-color: #555454;
+    --fifth-color: #D8DFE8;
+    --hover-color: #5e5d5d;
+
+    --montserrat-font: "Montserrat", sans-serif;
+    --krona-font: "Krona One", sans-serif;
+    --inter-font: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--main-color);
+    box-sizing: border-box;
+}
+
+.encript_logo {
+    width: 2.2rem;
+    margin: 0.313rem 0 0 0.625rem;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion__formulario{
+    flex-direction: column;
+    width: 57%;
+    height: 31.3rem;
+}
+
+::placeholder {
+    color: var(--second-color);
+}
+
+.presentacion__formulario textarea{
+    /* Quit background color and other decorations of textarea by default */
+    background-color: var(--main-color);
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    /* No resize */
+    resize: none;
+
+    font-family: var(--inter-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--second-color);
+    width: 43.75rem;
+    height: 28.125rem;
+}
+
+.presentacion__formulario p {
+    font-family: var(--inter-font);
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--fourth-color);
+}
+
+.presentacion__formulario button{
+    width: 20.5rem;
+    height: 4.2rem;
+    font-family: var(--inter-font);
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+.encript{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-color: var(--second-color);
+}
+
+.desencript{
+    background-color: var(--fifth-color);
+    color: var(--second-color);
+    border-color: var(--second-color);
+}
+
+.presentacion__resultado {
+    background-color: var(--third-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 35%;
+    height: 38rem;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: var(--fourth-color);
+}
+
+.presentacion__resultado figure {
+    margin-top: 2rem;
+}
+
+.presentacion__resultado figcaption {
+    font-family: var(--inter-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.presentacion__resultado p {
+    font-family: var(--inter-font);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.presentacion__resultado .resultado {
+    font-size: 1.5rem;
+}
