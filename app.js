@@ -50,4 +50,20 @@ function regEx(aux = 0) {
     // * Mostrar texto encriptado
     document.getElementById("resultado").style.display = 'block';
     document.getElementById("resultado").innerHTML = encryptText;
+
+    // * Mostrar btn copy
+    document.getElementById("btn-copy").style.display = "block";
+}
+
+function copy() {
+    
+    // * Declaración de variables
+    let textCopy = document.getElementById("resultado");
+    let copyBtn = document.querySelector("#btn-copy");
+
+    // * Uso de clipboard API
+    copyBtn.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(textCopy.innerHTML);
+        console.log('copiado!'); // * toast with text copied!
+    })
 }

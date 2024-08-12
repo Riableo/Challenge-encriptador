@@ -119,9 +119,25 @@ body{
     font-family: var(--inter-font);
     font-weight: 400;
     font-size: 1rem;
+    height: 31.25rem;
 }
 
 .presentacion__resultado .resultado {
     font-size: 1.5rem;
-    margin: 5px 5px 5px 5px;
+    margin: 0.938rem 0.313rem 0.313rem 0.313rem;
+}
+
+.presentacion__resultado .btn-copy {
+
+    margin: auto;
+    width: 20.5rem;
+    height: 4.2rem;
+    font-family: var(--inter-font);
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 15px;
+
+    background-color: var(--fifth-color);
+    color: var(--second-color);
+    border-color: var(--second-color);
 }
