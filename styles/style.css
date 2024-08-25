@@ -146,14 +146,14 @@ body{
 
 .toast {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    max-width: 300px;
+    top: 1.563rem;
+    right: 1.563rem;
+    max-width: 18.75rem;
     font-family: var(--krona-font);
     background: #fff;
     padding: 0.5rem;
-    border-radius: 4px;
-    box-shadow: -1px 1px 10px
+    border-radius: 0.25rem;
+    box-shadow: -0.063rem 0.063rem 0.625rem
         rgba(0, 0, 0, 0.3);
     z-index: 1023;
     animation: slideInRight 0.3s ease-in-out forwards,
@@ -170,7 +170,7 @@ body{
     display: block;
     bottom: 0;
     left: 0;
-    height: 4px;
+    height: 0.25rem;
     width: 100%;
     background: #b7b7b7;
     animation: toastProgress 3s ease-in-out forwards;
