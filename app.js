@@ -51,6 +51,13 @@ function regEx(aux = 0) {
     document.getElementById("resultado").style.display = 'block';
     document.getElementById("resultado").innerHTML = encryptText;
 
+    if(window.matchMedia("(max-width: 600px)").matches || (window.matchMedia("(min-width: 600px)").matches && window.matchMedia("(max-width: 1024px)").matches)){
+
+        // * Ajustar altura de presentacion resultado y resultado
+        document.getElementsByClassName("presentacion__resultado")[0].style.height = 'auto';
+        document.getElementsByClassName("resultado")[0].style.height = 'auto';
+    }
+
     // * Mostrar btn copy
     document.getElementById("btn-copy").style.display = "block";
 }
