@@ -27,8 +27,8 @@ Vista inicial de la aplicación en el escritorio.
 Imagen donde se muestra la funcionalidad de encriptar y desencriptar el texto.
 
 <p align="center">
-    <img src="assets/img-encriptada.png" alt="Imagen encriptacion de texto" style="width: 200px;">
-    <img src="assets/img-desencriptada.png" alt="Imagen desencriptacion de texto" style="width: 200px;">
+    <img src="assets/img-encriptada.png" alt="Imagen encriptacion de texto" style="width: 400px;">
+    <img src="assets/img-desencriptada.png" alt="Imagen desencriptacion de texto" style="width: 400px;">
 </p>
 
 ### Toast texto copiado 💬
@@ -36,7 +36,7 @@ Imagen donde se muestra la funcionalidad de encriptar y desencriptar el texto.
 Funcionalidad del aviso al usuario del texto copiado mediante un toast o mensaje emergente por cierta cantidad de tiempo.
 
 <p align="center">
-    <img src="assets/img-mssg.png" alt="Toast informcación de texto copiado" style="width: 200px;">
+    <img src="assets/img-mssg.png" alt="Toast informcación de texto copiado" style="width: 500px;">
 </p>
 
 ### 💻 Responsividad 📱
@@ -44,14 +44,14 @@ Funcionalidad del aviso al usuario del texto copiado mediante un toast o mensaje
 - Imagen inicial en ambos dispositivos evidenciando las diferencias visuales.
 
 <p align="center">
-    <img src="assets/img-tablet.png" alt="Dimensiones de tablet" style="width: 200px;">
+    <img src="assets/img-tablet.png" alt="Dimensiones de tablet" style="width: 250px;">
     <img src="assets/img-phone.png" alt="Dimensiones de telefono" style="width: 200px;">
 </p>
 
 - Imagen de encriptación en ambos dispositivos evidenciando sus diferencias visuales debido a la cantidad de espacio disponible de los dispositivos.
 
 <p align="center">
-    <img src="assets/img-tablet-encript.png" alt="Imagen tablet con encriptación" style="width: 200px;">
+    <img src="assets/img-tablet-encript.png" alt="Imagen tablet con encriptación" style="width: 250px;">
     <img src="assets/img-phone encript.png" alt="Imagen telefono con encriptación" style="width: 200px;">
 </p>
 
@@ -60,8 +60,8 @@ Funcionalidad del aviso al usuario del texto copiado mediante un toast o mensaje
 Imágenes que nos muestran las validaciones que se tienen en cuenta (mayúsculas o acentos) y las derivaciones que causan en la aplicación como cambio de color en botones, deshabilitación de botones y el mensaje toma un tono mas fuerte para generar enfatización en el texto.
 
 <p align="center">
-    <img src="assets/img-validacion.png" alt="Validacion acentos" style="width: 200px;">
-    <img src="assets/img-validacion2.png" alt="Validacion de mayúsculas" style="width: 200px;">
+    <img src="assets/img-validacion.png" alt="Validacion acentos" style="width: 400px;">
+    <img src="assets/img-validacion2.png" alt="Validacion de mayúsculas" style="width: 400px;">
 </p>
 
 # Recursos 💊
