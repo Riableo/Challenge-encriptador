@@ -75,14 +75,46 @@ function copy() {
     })
 }
 
-// script.js
+const inputField = document.getElementById("text__form");
+
+// Expresión regular para detectar mayúsculas o acentos
+const regex = /[A-ZáéíóúÁÉÍÓÚ]/;
+
+inputField.addEventListener("input", (event) => {
+  const text = event.target.value; // Obtiene el valor del input
+
+  if (regex.test(text)) {
+    // strong texto info
+    document.querySelector(".info-text").style.fontWeight = 'bold';
+
+    // disabled btn encript
+    document.querySelector(".encript").disabled = true;
+    document.querySelector(".encript").style.backgroundColor = '#808080';
+    
+    // disabled btn desencript
+    document.querySelector(".desencript").disabled = true;
+    document.querySelector(".desencript").style.backgroundColor = '#808080';
+
+  } else {
+    // strong texto info
+    document.querySelector(".info-text").style.fontWeight = '400';
+
+    // disabled btn encript
+    document.querySelector(".encript").disabled = false;
+    document.querySelector(".encript").style.backgroundColor = '#020346';
+    
+    // disabled btn desencript
+    document.querySelector(".desencript").disabled = false;
+    document.querySelector(".desencript").style.backgroundColor = '#D8DFE8';
+  }
+});
+
+// js by GeeksforGeeks
 
 let icon = {
     info: '<span class="material-symbols-outlined">info</span>',
 };
 
-
-// js by GeeksforGeeks
 const showToast = (
     message = "Sample Message",
     toastType = "info",
