@@ -79,7 +79,7 @@ body{
     font-family: var(--inter-font);
     font-weight: 400;
     font-size: 1rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
 }
 
 .encript{
@@ -101,7 +101,7 @@ body{
     width: 35%;
     height: 38rem;
     border-radius: 5%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.313rem 0.938rem;
     color: var(--fourth-color);
 }
 
@@ -119,12 +119,15 @@ body{
     font-family: var(--inter-font);
     font-weight: 400;
     font-size: 1rem;
-    height: 31.25rem;
+    /*height: 31.25rem;*/
+    height: 9.375rem;
 }
 
 .presentacion__resultado .resultado {
     font-size: 1.5rem;
+    height: 31.25rem;
     margin: 0.938rem 0.313rem 0.313rem 0.313rem;
+    display: none;
 }
 
 .presentacion__resultado .btn-copy {
@@ -135,11 +138,35 @@ body{
     font-family: var(--inter-font);
     font-weight: 400;
     font-size: 1rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
 
     background-color: var(--fifth-color);
     color: var(--second-color);
     border-color: var(--second-color);
+
+    display: none;
+}
+
+footer {
+    background-color: var(--fourth-color);
+    padding: 0.938rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-networks {
+    display: flex;
+    flex-direction: row;
+    gap: 0.313rem;
+}
+
+.container-networks svg:hover{
+    stroke: var(--fifth-color);
 }
 
 /*Toast CSS by GeeksforGeeks*/
