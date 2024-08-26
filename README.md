@@ -1,3 +1,5 @@
+[![GitHub](https://img.shields.io/badge/github-pages-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://riableo.github.io/Challenge-encriptador/ "Web app encriptador Challenge Alura")
+
 # 💾 Reto Encriptador Alura
 
 Aplicación que encripta y desencripta texto, además de copiar el texto dentro del campo resultado informando al usuario con un mensaje emergente de información. 
